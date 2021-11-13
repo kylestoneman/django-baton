@@ -1,9 +1,9 @@
 // bootstrap
-$base: #d32d41;
+$base: #00A5E0;
 $primary: darken($base, 20%);
-$secondary: #b3c100;
-$accent: #b3c100;
-$font-family-sans-serif: 'Dosis', sans-serif !default;
+$secondary: #77B6EA;
+$accent: #77B6EA;
+$font-family-sans-serif: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
 
 // fonts
 $h1-size: 1.6rem;
@@ -116,7 +116,7 @@ $collapse-entry-icon-color: #666;
 $state-danger-bg: #f2dede;
 $field-bg: #f9f9f9;
 $field-row-error-bg: $state-danger-bg;
-$fieldset-title-bg: lighten($base, 35%);
+$fieldset-title-bg: #fff;
 $inline-related-title-bg: #fafafa;
 $inline-related-title-border-color: #eee;
 $inline-related-title-border-top-color: #eee;

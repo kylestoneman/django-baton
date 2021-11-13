@@ -4,7 +4,6 @@
   background: $breadcrumbs-bg;
   // border-bottom: 1px solid $breadcrumbs-border-color;
   line-height: 1.9;
-  word-spacing: 5px;
 
   a {
     &:first-child {
@@ -12,6 +11,7 @@
         @extend %font-awesome;
         @extend .me-1;
         content: '\f015';
+        padding-right: 4px;
       }
     }
   }

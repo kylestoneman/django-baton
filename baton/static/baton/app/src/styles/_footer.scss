@@ -1,5 +1,7 @@
 // scss-lint:disable PlaceholderInExtend IdSelector
 .site-footer {
+  display: none;
+
   @extend .p-3;
   background: $footer-bg;
   border-top: 1px solid $footer-border-color;
