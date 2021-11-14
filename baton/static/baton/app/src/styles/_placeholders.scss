@@ -22,6 +22,8 @@
     background: $field-bg;
     margin-bottom: .5rem;
     padding: 1rem .5rem;
+    align-items: center;
+    line-height: 1.25;
 
     &.with-wrapped-fields {
       background: transparent;
@@ -153,11 +155,11 @@
       padding-left: 1px;
 
       @include media-breakpoint-up(md) {
-        margin-left: 20%;
+        margin-left: 25%;
       }
 
       @include media-breakpoint-up(lg) {
-        margin-left: 10%;
+        margin-left: 20%;
       }
     }
 
@@ -171,11 +173,11 @@
         margin-left: 0 !important;
 
         @include media-breakpoint-up(md) {
-          margin-left: 20% !important;
+          margin-left: 25% !important;
         }
 
         @include media-breakpoint-up(lg) {
-          margin-left: 10% !important;
+          margin-left: 20% !important;
         }
       }
 
@@ -366,12 +368,12 @@
     text-align: left;
 
     @include media-breakpoint-up(md) {
-      flex-basis: 20%;
+      flex-basis: 25%;
       text-align: right;
     }
 
     @include media-breakpoint-up(lg) {
-      flex-basis: 10%;
+      flex-basis: 20%;
       text-align: right;
     }
   }
@@ -486,11 +488,11 @@
     padding-left: 1px;
 
     @include media-breakpoint-up(md) {
-      margin-left: 20% !important;
+      margin-left: 25% !important;
     }
 
     @include media-breakpoint-up(lg) {
-      margin-left: 10% !important;
+      margin-left: 20% !important;
     }
 
     > ul {
@@ -821,14 +823,14 @@
       flex-direction: row !important;
 
       label {
-        flex-basis: 20% !important;
+        flex-basis: 25% !important;
         vertical-align: top;
       }
     }
 
     @include media-breakpoint-up(lg) {
       label {
-        flex-basis: 10% !important;
+        flex-basis: 20% !important;
       }
     }
   }

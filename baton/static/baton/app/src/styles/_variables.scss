@@ -70,10 +70,10 @@ $search-field-selected-color: #fff;
 
 // dashboard
 $dashboard-bg: #f5f5f5;
-$dashboard-title-bg: #fafafa;
+$dashboard-title-bg: $transparent;
 $dashboard-module-bg: #fff;
 $dashboard-module-border-color: #fff;
-$dashboard-caption-bg: #f6f6f6;
+$dashboard-caption-bg: #fff;
 $dashboard-caption-color: #000;
 $dashboard-icon-color: #f90;
 $dashboard-delete-bg: #dc3545;
@@ -81,7 +81,7 @@ $dashboard-add-bg: #28a745;
 $dashboard-change-bg: #007eed;
 
 // breadcrumbs
-$breadcrumbs-bg: #f0f0f0;
+$breadcrumbs-bg: transparent;
 $breadcrumbs-border-color: #bbb;
 
 // content
@@ -114,7 +114,7 @@ $changeform-bg: #fff;
 $changeform-border-color: #fff;
 $collapse-entry-icon-color: #666;
 $state-danger-bg: #f2dede;
-$field-bg: #f9f9f9;
+$field-bg: transparent;
 $field-row-error-bg: $state-danger-bg;
 $fieldset-title-bg: #fff;
 $inline-related-title-bg: #fafafa;
