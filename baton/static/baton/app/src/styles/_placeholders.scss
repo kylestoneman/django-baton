@@ -8,8 +8,6 @@
 %admin-form {
   @extend .p-2;
   @extend .mt-3;
-  background: $changeform-bg;
-  border: 1px solid $changeform-border-color;
   clear: both;
   overflow: auto;
 
@@ -20,8 +18,8 @@
   .form-row {
     // @extend .form-group; // @TODO check
     background: $field-bg;
-    margin-bottom: .5rem;
-    padding: 1rem .5rem;
+    margin-bottom: .25rem;
+    padding: 0.25rem .5rem;
     align-items: center;
     line-height: 1.25;
 
@@ -369,12 +367,12 @@
 
     @include media-breakpoint-up(md) {
       flex-basis: 25%;
-      text-align: right;
+      line-height: 2.4;
     }
 
     @include media-breakpoint-up(lg) {
       flex-basis: 20%;
-      text-align: right;
+      line-height: 2.4;
     }
   }
 
@@ -416,7 +414,7 @@
     resize: both;
 
     @include media-breakpoint-up(md) {
-      width: auto;
+      flex: 1 1 75%;
     }
   }
 

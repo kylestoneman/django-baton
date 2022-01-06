@@ -30,13 +30,7 @@
   }
 
   .baton-image-preview {
-    height: 100px;
-
-    &:hover {
-      animation: bounce 0.1s;
-      animation-direction: alternate;
-      animation-iteration-count: 4;
-    }
+    height: 50px;
   }
 
   .collapse-entry {
