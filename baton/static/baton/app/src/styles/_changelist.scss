@@ -4,8 +4,12 @@
     @extend .container-fluid;
   }
 
-  .object-tools {
+  #content .object-tools {
     .addlink {
+      background: var(--bs-green);
+      border-color: var(--bs-green);
+      color: #fff;
+
       &::before {
         content: '\f067';
       }
@@ -17,7 +21,6 @@
   }
 
   #changelist {
-    border: 1px solid $changelist-border-color;
     clear: both;
     display: flex;
     flex-wrap: wrap;
@@ -318,9 +321,9 @@
 
   #changelist-form {
     @include make-col(12);
-    background: $changelist-bg;
+    background: transparent;
     order: 2;
-    padding: 1rem !important;
+    padding: 1rem 0;
     position: relative; // filter icon
 
     @include media-breakpoint-up(lg) {
@@ -328,6 +331,7 @@
     }
 
     .actions {
+      display: none;
       @extend .mb-4;
 
       label {
@@ -367,6 +371,7 @@
     table {
       @extend .table;
       @extend .table-bordered;
+      margin-bottom: 0;
 
       thead > tr {
         background: $rl-head-bg;
